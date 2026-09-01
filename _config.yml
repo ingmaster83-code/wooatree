@@ -1,0 +1,30 @@
+title: 우아보호수 - 전국 보호수 찾기
+description: >-
+  전국 12,668곳의 노목·거목·희귀목 보호수 위치와 수령·크기 정보를 지역별로 검색하세요.
+url: "https://wooatree.wooahouse.com"
+baseurl: ""
+lang: ko
+timezone: Asia/Seoul
+author: WooaHouse
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - "*.py"
+  - "*.log"
+  - "*.txt"
+  - README.md
+  - .gitignore
+  - vendor/
+  - _rawdata/
+  - data/
